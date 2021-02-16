@@ -42,6 +42,12 @@ Do the following:
    HINT: no function required
 */
 
+let valueOne = 600;
+let valueTwo = 1000;
+
+if(valueTwo !== 999){
+  console.log(ValueOne * 2)
+}
 
 
 
@@ -84,10 +90,12 @@ Do the following:
    2. Use the received value to calculate the age in dog years (1 human year is equal to 7 dog years)
    3. Return the newly calculated age
 */
-
-function dogYears(/*add your code here*/){
-    /*add your code here*/
+num1 = 1;
+num2 = 7;
+function dogYears(num1, num2){
+    return num1 * num2;
 }
+console.log(dogyears);
 
 
 
