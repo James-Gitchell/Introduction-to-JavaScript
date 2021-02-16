@@ -20,11 +20,14 @@ Do the following:
 
 let votingAge = 19;
 
-if (votingAge >=18){
+if(votingAge >= 18){
  console.log(true);
 }
-console.log(votingAge);
-  
+else{
+  console.log(false);
+}
+return votingAge;
+
   
   
 
